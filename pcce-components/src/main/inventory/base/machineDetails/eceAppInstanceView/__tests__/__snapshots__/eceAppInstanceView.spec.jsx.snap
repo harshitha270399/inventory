@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ECEAppInstanceView test suite should not render when eceAppInstance is not provided 1`] = `
+<div>
+  <div />
+  <div
+    className="flex mar-top-125r flex0"
+  >
+    <div
+      className="flex0-170basis"
+    >
+      <label
+        className="control-label"
+        htmlFor="appInstanceInput"
+      >
+        <span
+          className="required"
+        >
+          *
+        </span>
+      </label>
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`ECEAppInstanceView test suite should render correctly with eceAppInstance 1`] = `
+<div>
+  <div />
+  <div
+    className="flex mar-top-125r flex0"
+  >
+    <div
+      className="flex0-170basis"
+    >
+      <label
+        className="control-label"
+        htmlFor="appInstanceInput"
+      >
+        <span
+          className="required"
+        >
+          *
+        </span>
+      </label>
+    </div>
+    <div>
+      <Input
+        className=""
+        id="appInstanceInput"
+        inputStyle="normal"
+        maxLength={24}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
